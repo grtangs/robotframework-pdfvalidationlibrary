@@ -15,7 +15,7 @@ Use the [robotframework-maven-plugin](http://robotframework.org/MavenPlugin/) an
     <dependency>
         <groupId>com.github.greatanuragg</groupId>
         <artifactId>robotframework-pdfvalidationlibrary</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
     </dependency>
         
 Import the library in Robot:
@@ -23,5 +23,5 @@ Import the library in Robot:
 |                    |                                 |
 | ----------------   | ------------------------------- | 
 | *** Settings ***   |                                 |                 
-| Library            | PDFValidationLibrary                      |   
+| Library            | PDFContentValidationLibrary                      |   
    
