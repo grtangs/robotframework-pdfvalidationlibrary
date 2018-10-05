@@ -1,10 +1,10 @@
 import org.robotframework.javalib.library.AnnotationLibrary;
 
-public class PDFValidationLibrary extends AnnotationLibrary {
+public class PDFContentValidationLibrary extends AnnotationLibrary {
 
 	public static final String ROBOT_LIBRARY_SCOPE = "GLOBAL";
 
-	public PDFValidationLibrary() {
+	public PDFContentValidationLibrary() {
 		super("com/github/greatanuragg/pdfvalidationlibrary/keywords/**");
 	}
 
